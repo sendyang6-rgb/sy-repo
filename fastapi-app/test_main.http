@@ -1,0 +1,25 @@
+###
+GET http://127.0.0.1:8000/
+Accept:application/json
+
+
+
+
+###
+GET http://127.0.0.1:8000/hello/User
+Accept: application/json
+
+
+###
+POST http://127.0.0.1:8000/login
+Content-Type: application/json
+
+{
+   "email":"ypy@qq.com",
+   "password":"1234566"
+}
+
+
+###
+GET http://127.0.0.1:8000/user/list?page=20&size=222
+
